@@ -1,0 +1,19 @@
+<h1>K-Electric Bill Generator</h1>
+<label for="customerName">Customer Name:</label>
+<input type="text" id="customerName"><br><br>
+
+<label for="currentMonth">Current Month:</label>
+<input type="text" id="currentMonth"><br><br>
+
+<label for="numberOfUnits">Number of Units:</label>
+<input type="number" id="numberOfUnits"><br><br>
+
+<label for="chargesPerUnit">Charges per Unit:</label>
+<input type="number" step="0.01" id="chargesPerUnit"><br><br>
+
+<label for="latePaymentSurcharge">Late Payment Surcharge:</label>
+<input type="number" step="0.01" id="latePaymentSurcharge"><br><br>
+
+<button onclick="generateBill()">Generate Bill</button><br><br>
+
+<div id="result"></div>
